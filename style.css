@@ -1,29 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #começo {
     text-align: center;
 }
+
 #mid {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #login {
     text-align: center;
 }
+
 .e {
     color: #000000;
     font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .s {
     color: #000000;
     font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #cadastro {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
 }
+
 input[type="email"],
 input[type="password"] {
     width: 25%;
@@ -44,6 +56,7 @@ input:focus {
     outline: none;
     background: #eef0ff;
 }
+
 .botao-cadastrar {
     background-color: #2821b8;
     color: #fff;
@@ -52,7 +65,7 @@ input:focus {
     border-radius: 8px;
     font-size: 1.1em;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background 0.3s;
 }
 
@@ -60,16 +73,12 @@ input:focus {
     background-color: #211a5c;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 #logo {
-text-align: center;
-display: block;
-margin: 0 auto
+    text-align: center;
+    display: block;
+    margin: 0 auto
 }
 
 .titulo {
@@ -88,9 +97,9 @@ margin: 0 auto
     margin: 0 auto;
     border-radius: 15px;
     padding: 17px 19px;
-    margin-top: 100px;    
+    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 .avancar {
@@ -99,43 +108,38 @@ margin: 0 auto
     border: none;
     font-size: 60px;
     background-color: white;
-    
+    cursor: pointer;
+    transition: all 1s ease;
+
+}
+.avancar:hover {
 }
 
 
 
-.homem {
-    display: flex;
-    height: 100px;
-    display: block;
-    margin: 35px 800px;
-}
 
-.mulher {
-    display: flex;
-    height: 100px;
-    display: block;
-    margin: -150px 1000px;
-}
 
 .linha2 {
     margin: 0 auto;
     margin-top: 300px;
 
 }
+
 #logo {
     text-align: center;
     display: block;
     margin: 0 auto;
     width: 300px;
 }
+
 #perfil {
     text-align: center;
     display: block;
     margin: 0 auto;
     width: 100px;
 }
-.botoes{
+
+.botoes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,6 +153,7 @@ margin: 0 auto
     margin-bottom: 4px;
     color: #333;
 }
+
 .botoes input {
     width: 250px;
     padding: 8px;
@@ -160,10 +165,12 @@ margin: 0 auto
     outline: none;
     transition: border 0.2s;
 }
+
 .botoes input:focus {
     border: 1.5px solid #007bff;
     background: #fff;
 }
+
 #entrar {
     background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
     color: #fff;
@@ -174,29 +181,46 @@ margin: 0 auto
     font-weight: bold;
     cursor: pointer;
     margin-top: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: background 0.2s, transform 0.2s;
 }
+
 #entrar:hover {
     background: linear-gradient(90deg, #0056b3 60%, #007bff 100%);
     transform: translateY(-2px) scale(1.03);
 }
-#imagens-negocio button {
+
+.imagens-negocio button {
     background: none;
     border: none;
     padding: 0;
+    margin-left: 10px;
     cursor: pointer;
-    outline: none;
+    transition: all 0.9s ease;
+
 }
 
-#imagens-negocio button:focus {
-    outline: 2px solid #2821b8; /* opcional: destaque ao focar */
+.imagens-negocio button:hover {
+    transform: scale(1.35);
 }
 
-#imagens-negocio img {
-    transition: transform 0.2s;
+.box {
+    text-align: center;
 }
 
-#imagens-negocio button:hover img {
-    transform: scale(1.08);
+
+
+.homem {
+    display: flex;
+    height: 100px;
+    display: block;
+    margin: 35px 80px;
+
+}
+
+.mulher {
+    display: flex;
+    height: 100px;
+    display: block;
+    margin: 35px 80px;
 }
