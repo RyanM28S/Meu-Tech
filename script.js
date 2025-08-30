@@ -23,7 +23,7 @@ function paginaMenu() {
         localStorage.setItem('cpfUsuario1', cpf);
 
         alert("Tudo certo");
-        window.open('telaInicial.html', '_blank');
+        window.open('Tela-inicial.html', '_blank');
     }
 }
 function paginaLogin() {
@@ -56,7 +56,7 @@ function fazerLogin() {
         localStorage.setItem('emailUsuario', email);
 
         alert("Todas as informações registradas");
-        window.open('CadastroData.html', '_blank');
+        window.open('Tela-inicial.html', '_blank');
     }
 }
 function mostrarInformações() {
@@ -119,27 +119,3 @@ function irTelaLogin() {
     window.location.href="Login.html"
 }
 
-
-function fazerLogin2() {
-    let senha2 = document.getElementById("Senha").value;
-    let email2 = document.getElementById("Email").value;
-
-    let erros = [];
-
-    if (senha2 === '') {
-        erros.push("Senha não registrada");
-    }
-    if (email2 === '') {
-        erros.push("Email não registrado");
-    }
-
-    if (erros.length > 0) {
-        alert(erros.join('\n'));
-    } else {
-        localStorage.setItem('senhaUsuario2', senha2);
-        localStorage.setItem('emailUsuario2', email2);
-
-        alert("Todas as informações registradas");
-        window.open('Tela-inicial.html', '_blank');
-    }
-}
