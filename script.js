@@ -93,5 +93,5 @@ function mostrarInformações() {
 function Voltar() {
     localStorage.removeItem("senhaUsuario");
     localStorage.removeItem("senhaUsuario1");
-    window.location.href = "CadastroData.html";
+    window.location.href = "tela.html";
 }
