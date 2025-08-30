@@ -110,7 +110,7 @@ function redirenciona3(){
     window.location.href="https://github.com/GuilhermeBuenoDA"
 }
 function irColoboracao() {
-    window.location.href="tela.html"
+    window.location.href="telaColoboracoes.html"
 }
 function irTelaInicial() {
 window.location.href="Tela-inicial.html"
