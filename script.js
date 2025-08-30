@@ -109,3 +109,37 @@ function redirenciona2(){
 function redirenciona3(){
     window.location.href="https://github.com/GuilhermeBuenoDA"
 }
+function irColoboracao() {
+    window.location.href="tela.html"
+}
+function irTelaInicial() {
+window.location.href="Tela-inicial.html"
+}
+function irTelaLogin() {
+    window.location.href="Login.html"
+}
+
+
+function fazerLogin2() {
+    let senha2 = document.getElementById("Senha").value;
+    let email2 = document.getElementById("Email").value;
+
+    let erros = [];
+
+    if (senha2 === '') {
+        erros.push("Senha não registrada");
+    }
+    if (email2 === '') {
+        erros.push("Email não registrado");
+    }
+
+    if (erros.length > 0) {
+        alert(erros.join('\n'));
+    } else {
+        localStorage.setItem('senhaUsuario2', senha2);
+        localStorage.setItem('emailUsuario2', email2);
+
+        alert("Todas as informações registradas");
+        window.open('Tela-inicial.html', '_blank');
+    }
+}
