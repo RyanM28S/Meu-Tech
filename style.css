@@ -220,3 +220,42 @@ input:focus {
     margin: 35px 80px;
 }
 
+
+
+
+
+#colaboradores {
+    background-image: url('img/wp6942356-white-minimalist-wallpapers.png');
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#fotos {
+    display: flex;
+    height: 150px;
+    border-radius: 10%;
+    display: inline;
+}
+
+button {
+    display: flex;
+    background-color: transparent;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    border: none;
+    padding-bottom: 19px;
+    padding-top: 10px;
+}
+
+.titulo2 {
+    display: flex;
+}
+p {
+    padding-top:70px ;
+
+}
