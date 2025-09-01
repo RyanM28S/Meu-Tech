@@ -254,7 +254,7 @@ input:focus {
     display: inline;
 }
 
-button {
+#titulo2 {
     display: flex;
     background-color: transparent;
     width: 180px;
@@ -276,4 +276,104 @@ p {
 #naoPosso {
     color: black;
     font-size: 250px;
+}
+
+
+
+
+
+
+
+
+.titulo {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.linha {
+    margin-top: 20px;
+}
+
+.botao_1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: none;
+    margin-right: 88%;
+    margin-top: -5px;
+}
+
+.voltar {
+    display: flex;
+
+    width: 80px ;
+    height: 80px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+button
+.botao_Voltar {
+    display: flex;
+
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao_2 {
+        display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.perfil {
+    display: flex;
+    height: 80px;
+ 
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.botao_Perfil {
+    display: flex;
+    flex: 2;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.botao_3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    height: 50px;
+    border: 2px solid;
+}
+
+.suporte {
+    display: flex;
+    height: 80px;
+  
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.botao_Suporte {
+    display: flex;
+    flex: 2;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
 }

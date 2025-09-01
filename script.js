@@ -156,3 +156,15 @@ botaoOpcao2.addEventListener('click', () => {
     alertaModal.style.display = 'none'; 
     
 });
+
+function paginaMenu() {
+    window.location.href = 'menu.html'
+}
+
+function paginaPerfil() {
+    window.location.href = 'perfil.html'
+}
+
+function paginaSuporte() {
+    window.location.href = 'suporte.html'
+}
