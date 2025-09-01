@@ -220,6 +220,19 @@ input:focus {
     margin: 35px 80px;
 }
 
+#voltar {
+    display: flex;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+    padding: 15px;
+}
 
 
 

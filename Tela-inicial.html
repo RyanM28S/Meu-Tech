@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Inicial - TechInvestment</title>
     <link rel="stylesheet" href="Tela-inicial.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -17,7 +19,18 @@
                 <li><a href="telaInformacoes.html">Configurações</a></li>
             </ul>
             <div class="auth-buttons">
-                <button class="sair-btn" onclick="alert('Saindoo'); window.location.href='Login.html'">Sair</button>
+                    <button class="sair-btn" id="abrirAlerta">Sair</button>
+
+    <div id="alertaPersonalizado" class="modal">
+        <div class="modal-content">
+            <span class="fechar-modal">&times;</span>
+            <h2>Deseja Sair mesmo!</h2>
+            <div class="botoes-alerta">
+                <button id="botaoOpcao1">Sim</button>
+                <button id="botaoOpcao2">Não</button>
+            </div>
+        </div>
+    </div>
             </div>
         </nav>
     </header>
@@ -44,19 +57,20 @@
                 </div>
                 <div class="feature-item">
                     <h>Segurança de Ponta</h2>
-                    <p>Sua segurança é nossa prioridade. Investimos pesado em proteção de dados.</p>
+                        <p>Sua segurança é nossa prioridade. Investimos pesado em proteção de dados.</p>
                 </div>
             </div>
         </section>
 
         <section id="how-it-works" class="how-it-works-section">
-                <div class="step">
-                    <h2>Comece a investir</h2>
-                    <p>Escolha seus ativos e veja seu dinheiro render.</p>
-                </div>
+            <div class="step">
+                <h2>Comece a investir</h2>
+                <p>Escolha seus ativos e veja seu dinheiro render.</p>
+            </div>
             </div>
         </section>
     </main>
+
 
     <footer id="contact">
         <p>&copy; 2025 TechInvestment. Todos os direitos reservados.</p>
@@ -65,5 +79,7 @@
             <a href="#">Política de Privacidade</a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
