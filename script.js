@@ -124,6 +124,9 @@ function paginaCadastroHomem() {
 function paginaCadastroMulher() {
     window.location.href = 'CadastroMulher.html'
 }
+function irEsqueciMinhaSenha() {
+    window.location.href='telaEsqueciMinhaSenha.html'
+}
 
 const alertaModal = document.getElementById('alertaPersonalizado');
 const botaoAbrir = document.getElementById('abrirAlerta');
