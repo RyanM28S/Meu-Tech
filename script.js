@@ -157,14 +157,5 @@ botaoOpcao2.addEventListener('click', () => {
     
 });
 
-function paginaMenu() {
-    window.location.href = 'menu.html'
-}
 
-function paginaPerfil() {
-    window.location.href = 'perfil.html'
-}
 
-function paginaSuporte() {
-    window.location.href = 'suporte.html'
-}
