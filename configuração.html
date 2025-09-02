@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="PTBR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1 class="titulo">Configurações</h1>
-<hr class="linha">    
-<div class="botao_1">
-<button class="voltar" onclick="irTelaLogin()"><img src="img/img/botao-Voltar.png" alt="botao-Voltar"></button>
-<p class="botao_Voltar" onclick="irTelaLogin()">Voltar</p>
-</div>
-<div class="botao_2">
-    <button class="perfil" onclick="paginaPerfil()"><img src="img/img/seta-Direita.png" alt="bota-Perfil"></button>
-    <p class="botao_Perfil" onclick="paginaPerfil()">Perfil</p>
-</div>
-<div class="botao_3"> 
-<button class="suporte" onclick="paginaSuporte()"><img src="img/img/seta-Direita.png" alt="botao-Suporte"></button>
-<p class="botao_Suporte" onclick="paginaSuporte()">Suporte</p>
-</div>
-
-
+    <h1 class="titulo">Configurações</h1>
+    <hr class="linha">
+    <div id="opcoes">
+        <section>
+        <div class="botao_1">
+            <button class="voltar" onclick="irTelaLogin()"><img src="img/img/botao-Voltar.png" alt="botao-Voltar"></button>
+            <p class="botao_Voltar" onclick="irTelaLogin()">Voltar</p>
+        </div>
+        <div class="botao_2">
+            <button class="perfil" onclick="paginaPerfil()"><img src="img/img/seta-Direita.png"
+                    alt="bota-Perfil"></button>
+            <p class="botao_Perfil" onclick="paginaPerfil()">Perfil</p>
+        </div>
+        <div class="botao_3">
+            <button class="suporte" onclick="paginaSuporte()"><img src="img/img/seta-Direita.png"
+                    alt="botao-Suporte"></button>
+            <p class="botao_Suporte" onclick="paginaSuporte()">Suporte</p>
+        </div>
+    </div>
+    </section>
     <script src="script.js"></script>
 </body>
 
