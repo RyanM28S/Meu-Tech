@@ -162,9 +162,19 @@ a {
     background-color: rgb(59, 255, 9);
     color: rgb(2, 63, 2);
     font-size: 20px;
+    transition: all 2s ease;
+}
+#botaoOpcao1:hover {
+    background-color: green;
+    color:rgb(59, 255, 9); ;
 }
 #botaoOpcao2 {
     background-color: rgb(255, 72, 40);
-    color: rgb(2, 63, 2);
+    color: rgb(54, 2, 2);
     font-size: 20px;
+    transition: all 2s ease;
+}
+#botaoOpcao2:hover {
+    background-color: rgb(131, 18, 18);
+    color:rgb(255, 72, 40) ;
 }
