@@ -283,7 +283,7 @@ p {
 
 
 
-
+/*configuraçoes*/
 
 .titulo {
     margin-top: 50px;
@@ -295,85 +295,43 @@ p {
     margin-top: 20px;
 }
 
-.botao_1 {
+#opcoes {
     display: flex;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    cursor: pointer;
-    border: none;
-    margin-right: 88%;
-    margin-top: -5px;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    margin-left: 50px;
+    
 }
 
-.voltar {
-    display: flex;
-
-    width: 80px ;
-    height: 80px;
-    background-color: white;
-    margin-top: 50px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-button
-.botao_Voltar {
-    display: flex;
-
-    margin-top: 50px;
-    margin-left: 20px;
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.botao_2 {
-        display: flex;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    cursor: pointer;
-    border: 2px solid;
-}
-
-.perfil {
-    display: flex;
-    height: 80px;
- 
-    background-color: white;
-    margin-top: 50px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
-.botao_Perfil {
-    display: flex;
-    flex: 2;
-    font-size: 40px;
-    margin-top: 40px;
-    margin-left: 20px;
-}
-
+.botao_1,
+.botao_2,
 .botao_3 {
     display: flex;
     align-items: center;
-    font-family: 'Times New Roman', Times, serif;
-    cursor: pointer;
-    height: 50px;
-    border: 2px solid;
+    height: 90px;
 }
 
+.botao_1 img, .botao_2 img, .botao_3 img  {
+        height: 80px;
+    width: auto;
+    display: block;
+}
+
+.voltar,
+.perfil,
 .suporte {
     display: flex;
     height: 80px;
-  
-    background-color: white;
-    margin-top: 50px;
-    margin-left: 20px;
-    cursor: pointer;
+    width: 80px;
+    flex: 1;
 }
 
-.botao_Suporte {
+.botao_Voltar, .botao_Perfil, .botao_Suporte {
     display: flex;
-    flex: 2;
-    font-size: 40px;
-    margin-top: 40px;
-    margin-left: 20px;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 18px;
+    height: 90px;
 }
