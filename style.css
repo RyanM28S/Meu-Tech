@@ -377,3 +377,15 @@ button
     margin-top: 40px;
     margin-left: 20px;
 }
+.titulo2 img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow:none ;
+}
+.titulo2 button {
+    border: none;
+    background: transparent;
+}
