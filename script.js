@@ -23,7 +23,7 @@ function paginaMenu() {
         localStorage.setItem('cpfUsuario1', cpf);
 
         alert("Tudo certo");
-        window.open('Tela-inicial.html', '_blank');
+        window.open('Login.html', '_blank');
     }
 }
 
@@ -114,10 +114,6 @@ function irCadastroData() {
     window.location.href = "CadastroData.html"
 }
 
-function paginaLogin() {
-    window.location.href = 'login.html'
-}
-
 function paginaCadastroHomem() {
     window.location.href = 'CadastroHomem.html'
 }
@@ -128,6 +124,12 @@ function irEsqueciMinhaSenha() {
     window.location.href='telaEsqueciMinhaSenha.html'
 }
 
+function paginaPerfil() {
+    window.location.href = 'telaPerfil.html'
+}
+function telaConfiguracoes() {
+    window.location.href = 'configuração.html'
+}
 const alertaModal = document.getElementById('alertaPersonalizado');
 const botaoAbrir = document.getElementById('abrirAlerta');
 const botaoFechar = document.querySelector('.fechar-modal');
