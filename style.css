@@ -291,15 +291,24 @@ p {
 
 .linha {
     margin-top: 20px;
+    
+}
+
+#foto {
+    display: flex;
+    border-radius: 50px;
+    height: 100px;
+    margin: 0 auto;
+    
 }
 
 #opcoes {
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    align-items: flex-start;
+    gap: px;
+    align-items: center;
     margin-left: 50px;
-    
+    justify-content: center;
 }
 
 .botao_1,
@@ -308,31 +317,26 @@ p {
     display: flex;
     align-items: center;
     height: 90px;
+    
 }
 
-.botao_1 img, .botao_2 img, .botao_3 img  {
-        height: 80px;
-    width: auto;
-    display: block;
-}
-
-.voltar,
-.perfil,
-.suporte {
-    display: flex;
-    height: 80px;
-    width: 80px;
-    flex: 1;
-}
-
-.botao_Voltar, .botao_Perfil, .botao_Suporte {
+.botao_Voltar, .botao_Perfil, .botao_Suporte, .colaboracao {
     display: flex;
     align-items: center;
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 18px;
-    height: 90px;
+    margin-left: 15px;
+    height: 48px;
+    background-color: #0056b3;
+    width: 150px;
 }
+
+
+.background {
+    background-color: #0056b3;
+}
+/*fim configuração*/
+
 .titulo2 img {
     width: 180px;
     height: 180px;
@@ -346,7 +350,7 @@ p {
     background: transparent;
 }
 
-/*Style da tela de perfl*/
+
 #informacoes {
     margin-left: 20px;
     background-color: black;
