@@ -12,11 +12,12 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+.voltar
 
 #login {
     text-align: center;
 }
-entrar
+
 .e {
     color: #000000;
     font-weight: bold;
@@ -166,7 +167,7 @@ input:focus {
     background: #fff;
 }
 
-#entrar {
+.entrar {
     background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
     color: #fff;
     border: none;
@@ -180,7 +181,7 @@ input:focus {
     transition: background 0.2s, transform 0.2s;
 }
 
-#entrar:hover {
+.entrar:hover {
     background: linear-gradient(90deg, #0056b3 60%, #007bff 100%);
     transform: translateY(-2px) scale(1.03);
 }
@@ -220,18 +221,15 @@ input:focus {
     margin: 35px 80px;
 }
 
-#voltar {
-    display: flex;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    font-size: 25px;
-    width: 100px;
-    height: 50px;
-    margin-left: 50px;
-    margin-bottom: 10px;
-    margin-top: -50px;
-    padding: 15px;
+.Voltar {
+    background-color: #0056b3;
+    border-radius: 5px;
+    color: #211a5c;
+    font-size: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: #000000;
+    margin: 10px;
 }
 
 
@@ -346,4 +344,27 @@ p {
 .titulo2 button {
     border: none;
     background: transparent;
+}
+
+/*Style da tela de perfl*/
+#informacoes {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 50%;
+    margin-bottom: 10px;
+}
+#mostrar {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.infos {
+    font-size: 30px;
 }
