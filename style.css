@@ -299,17 +299,16 @@ p {
     border-radius: 50px;
     height: 100px;
     margin: 0 auto;
-    justify: center;
     
 }
 
 #opcoes {
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    align-items: flex-start;
+    gap: px;
+    align-items: center;
     margin-left: 50px;
-    
+    justify-content: center;
 }
 
 .botao_1,
@@ -321,32 +320,15 @@ p {
     
 }
 
-.botao_1 img, .botao_2 img, .botao_3 img  {
-        height: 80px;
-    width: auto;
-    display: block;
-}
-
-.voltar,
-.perfil,
-.suporte {
-    display: flex;
-    height: 80px;
-    width: 80px;
-    flex: 1;
-    background-color: #007bff;
-    
-}
-
 .botao_Voltar, .botao_Perfil, .botao_Suporte, .colaboracao {
     display: flex;
-    flex: 1;
     align-items: center;
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 18px;
-    height: 90px;
-    background-color:#007bff;
+    margin-left: 15px;
+    height: 48px;
+    background-color: #0056b3;
+    width: 150px;
 }
 
 
