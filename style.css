@@ -373,3 +373,58 @@ p {
 .infos {
     font-size: 30px;
 }
+} 
+
+.icones { 
+
+    display: flex; 
+
+    justify-content: center; 
+
+    gap: 40px; 
+
+    margin-top: 40px; 
+
+} 
+
+ 
+
+.icones > div { 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    align-items: center; 
+
+} 
+
+ 
+
+.icones img { 
+
+    width: 100px; 
+
+    height: 100px; 
+
+    object-fit: contain; 
+
+    display: block; 
+
+    margin-bottom: 10px; 
+
+} 
+
+ 
+
+.icones p { 
+
+    padding-top: 0; 
+
+    margin: 0; 
+
+    font-size: 1em; 
+
+    text-align: center; 
+
+} 
