@@ -321,6 +321,7 @@ p {
 }
 
 .botao_Voltar, .botao_Perfil, .botao_Suporte, .colaboracao {
+    border: none;
     display: flex;
     align-items: center;
     font-size: 2em;
