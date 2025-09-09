@@ -321,20 +321,22 @@ p {
 }
 
 .botao_Voltar, .botao_Perfil, .botao_Suporte, .colaboracao {
-    border: none;
+    
     display: flex;
+    margin-top:50px;
     align-items: center;
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 15px;
-    height: 48px;
+    height: 55px;
     background-color: #0056b3;
-    width: 150px;
+    width: 170px;
 }
 
 
+
 .background {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
 /*fim configuração*/
 
