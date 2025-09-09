@@ -321,7 +321,6 @@ p {
 }
 
 .botao_Voltar, .botao_Perfil, .botao_Suporte, .colaboracao {
-    
     display: flex;
     margin-top:50px;
     align-items: center;
@@ -340,6 +339,7 @@ p {
 }
 /*fim configuração*/
 
+/*suporte*/
 .titulo2 img {
     width: 180px;
     height: 180px;
@@ -375,3 +375,116 @@ p {
 .infos {
     font-size: 30px;
 }
+
+/*fim suporte*/
+
+/*monitoramento*/
+
+.organizacaomon {
+    display: flex;
+    flex-direction: initial;
+
+}
+.Monitoramento {
+margin-top: 20px ;
+margin-left: 40px;
+}
+.perfilmonitoramento {
+margin-left: 1600px;
+margin-top: 10px;
+box-shadow: none;
+border-radius: 40px ;
+padding: 6px;
+}
+.monitoramentoperfil {
+height: 60px;
+width: 60px;
+
+}
+
+.investimentomonitoramento {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.monitomarentoinput {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px   ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    padding: 20px;
+}
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;  
+    padding: 20px;
+}
+.coluna3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#moniinput {
+    margin-top: -17px;
+}
+
+.pesquisarmon {
+    margin-top: 115px;
+    height: 45px;
+    width: 200px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    transition: all 1s ease color 0.5ms ease;
+    cursor: pointer;
+}
+
+.pesquisarmon button {
+    height: 45px;
+    width: 200px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.pesquisarmon button :hover {
+    background-color: limegreen;
+    color: white;
+}
+.linhamon {
+    margin-top: 100px;
+    color: limegreen;
+}
+.tabelainvestimentos{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.organizacao2mon {
+    display: flex;
+    flex-direction: initial;    
+}
+
+.tabelaacoes {
+font-size: 30px;
+margin-left: 200px;
+}
+
+.tabelastatus {
+font-size: 30px;
+margin-left: 200px;
+}
+
+.tabeladata {
+font-size: 30px;
+margin-left: 200px;
+}
+/*fim monitoramento*/
