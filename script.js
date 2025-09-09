@@ -123,6 +123,9 @@ function paginaCadastroMulher() {
 function irEsqueciMinhaSenha() {
     window.location.href='telaEsqueciMinhaSenha.html'
 }
+function irTelaSuporte () {
+    window.location.href ='suporte.html'
+}
 
 function paginaPerfil() {
     window.location.href = 'telaPerfil.html'

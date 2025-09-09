@@ -12,24 +12,28 @@
     <h1 class="titulo">Configurações</h1>
     <hr class="linha">
     <div id="opcoes">
-        <button id="foto"><img src="img/img/homem-de-negocios.png" alt="foto perfil"></button>
-    </div>
-        <section class="config">
-             
-    <div class="botao_1">
-    <p class="botao_Voltar">Voltar</p>
+        <button id="foto">
+            <img src="img/img/homem-de-negocios.png" alt="foto perfil">
+        </button>
         
     </div>
+    <section class="config">
 
-    <div class="botao_2">
-    <p class="botao_Perfil">Perfil</button>
-    </div>
-            
-    <div class="botao_3">
-        <p class="botao_Suporte">Suporte</p>
-    </div>
-            <p class="colaboracao">Coloboração</button>
-    </div>
+        <div class="botao_1">
+            <button onclick="irTelaInicial()" class="botao_Voltar">Voltar</button>
+
+        </div>
+
+        <div onclick="paginaPerfil()" class="botao_2">
+            <button class="botao_Perfil">Perfil</button>
+        </div>
+
+        <div onclick="irTelaSuporte()" class="botao_3">
+            <button class="botao_Suporte">Suporte</button>
+        </div>
+        <div>
+            <button onclick="irColoboracao()" class="colaboracao">Coloboração</button>
+        </div>
     </section>
     <script src="script.js"></script>
 </body>
