@@ -17,6 +17,7 @@
     text-align: center;
 }
 
+
 .e {
     color: #000000;
     font-weight: bold;
@@ -75,11 +76,6 @@ input:focus {
 
 
 
-#logo {
-    text-align: center;
-    display: block;
-    margin: 0 auto
-}
 
 .titulo {
     text-align: center;
@@ -120,6 +116,13 @@ input:focus {
 
 }
 
+#hm {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
 #logo {
     text-align: center;
     display: block;
@@ -127,9 +130,14 @@ input:focus {
     width: 300px;
 }
 
-#perfil {
-    text-align: center;
-    display: block;
+#homi {
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+}
+#muie {
+    display: flex;
+
     margin: 0 auto;
     width: 100px;
 }
@@ -139,7 +147,7 @@ input:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 50vh;
     gap: auto;
 }
 
@@ -478,10 +486,12 @@ p {
 #ajeita {
     display: flex;
 }
+
 .b1 {
     width: 50px;
     height: 50px;
 }
+
 #botoes_rapidos {
     color: white;
     background-color: #057c19;
@@ -493,8 +503,9 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px auto 0 auto; /* Centraliza horizontalmente */
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    margin: 30px auto 0 auto;
+    /* Centraliza horizontalmente */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 #botoes_rapidos h3 {
@@ -514,7 +525,7 @@ p {
     font-weight: bold;
     cursor: pointer;
     margin: 10px 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
     transition: background 0.2s, transform 0.2s;
 }
 
