@@ -617,8 +617,8 @@ width: 60px;
     color: white;
 }
 .linhamon {
-    margin-top: 100px;
-    color: limegreen;
+    border: 1px solid green;
+    margin: 20px 0;
 }
 .tabelainvestimentos{
     font-size: 30px;
