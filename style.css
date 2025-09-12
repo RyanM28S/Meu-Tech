@@ -590,6 +590,12 @@ p {
 
 /* monitoramento */
 
+.backgroundmon {
+    background-color: #007bff ;
+}
+
+
+
 .organizacaomon {
     display: flex;
     flex-direction: initial;
