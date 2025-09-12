@@ -239,6 +239,13 @@ input:focus {
     background-position: center;
 
 }
+#monitoramentoTela {
+    background-image: url('img/img/background-tela\ monitoramento.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+}
 
 #fotos {
     display: flex;
