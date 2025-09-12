@@ -232,11 +232,13 @@ input:focus {
 
 #colaboradores {
     background-image: url('img/img/wp6942356-white-minimalist-wallpapers.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
     color: #333;
     line-height: 1.6;
     text-align: center;
-    background-size: cover;
-    background-position: center;
 
 }
 
