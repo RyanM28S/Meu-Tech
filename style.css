@@ -609,6 +609,12 @@ height: 60px;
 width: 60px;
 
 }
+#hm {
+    display:flex ;
+    margin: 0 auto;
+    margin-top: -100px;
+    
+}
 
 .investimentomonitoramento {
     font-family: 'Times New Roman', Times, serif;
@@ -621,7 +627,13 @@ width: 60px;
     border-radius: 10px;
     cursor: pointer;
 }
-
+#homi {
+    display: flex;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    margin-bottom: -300px;
+}
 .coluna {
     display: flex;
     flex-direction: column;
