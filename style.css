@@ -277,10 +277,6 @@ p {
 }
 
 
-
-
-
-
 /*configuraçoes*/
 
 .titulo {
@@ -313,7 +309,8 @@ p {
 
 .botao_1,
 .botao_2,
-.botao_3 {
+.botao_3,
+.botao_4 {
     display: flex;
     align-items: center;
     height: 90px;
@@ -342,7 +339,39 @@ p {
     background-color: #007bff;
 }
 
+.voltarconf {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.perfilconf {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.suporteconf {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 60px;
+    width: 60px;
+}
+
+.colaboracaoconf {
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 60px;
+    width: 60px;
+}
+
 /*fim configuração*/
+
+
+
+
 
 .titulo2 img {
     width: 180px;
