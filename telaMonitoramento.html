@@ -1,46 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitoramento</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="backgroundmon">
-    <h1>Tela Monitoramento</h1>
+    <h1 id="monoId">Tela Monitoramento</h1>
     <div class="organizacao">
-        <h1 class="Monitoramento">Painel de Monitoramento de Investimentos</h1>
+        <h2 id="monoId" class="Monitoramento">Painel de Monitoramento de Investimentos</h2>
         <button class="perfilmonitoramento"><img src="./img/img/homem-de-negocios.png" alt=""
                 class="monitoramentoperfil"></button>
 
-        </div>
-        <hr class="linhamon">
-        <div class="organizacaomon">
+    </div>
+    <hr class="linhamon">
+    <div class="organizacaomon">
         <div class="coluna">
-            <p class="investimentomonitoramento">Investimento</p> <br>
+            <p id="monoId" class="investimentomonitoramento">Investimento</p> <br>
             <input type="text" class="monitomarentoinput" id="moniinput">
         </div>
         <div class="coluna2">
-            <p class="investimentomonitoramento">Data Inicio Investimento Filtro</p>
+            <p id="monoId" class="investimentomonitoramento">Data Inicio Investimento Filtro</p>
             <input type="date" class="monitomarentoinput">
         </div>
         <div class="coluna2">
-            <p class="investimentomonitoramento">Data Final Investimento Filtro</p>
+            <p id="monoId" class="investimentomonitoramento">Data Final Investimento Filtro</p>
             <input type="date" class="monitomarentoinput">
         </div>
         <div>
             <button class="pesquisarmon">Pesquisar</button>
         </div>
-         </div>
-        <hr class="linhamon">
-        <div class="organizacao2mon">
-            <p class="tabelainvestimentos">Investimento</p>
-            <p class="tabelaacoes">|Ações</p>
-            <p class="tabelastatus">|Status da Transação</p>
-            <p class="tabeladata">|Data e Hora</p>
+    </div>
+    <hr class="linhamon">
+
+    <div>
+        <div>
+            <table>
+                <tr>
+                    <th>Investimento</th>
+                    <th>Ações</th>
+                    <th>Status da Transação</th>
+                    <th>Data e Hora</th>
+                </tr>
+                <tr>
+                    <td>!!!!!!!!!!!!</td>
+                    <td>!!!!!!!!!!!!</td>
+                    <td>!!!!!!!!!!!!</td>
+                    <td>!!!!!!!!!!!!</td>
+                </tr>
+                <tr>
+                    <td>!!!!!!!!!!!!</td>
+                    <td>!!!!!!!!!!!!</td>
+                    <td>!!!!!!!!!!!!</td>
+                    <td>!!!!!!!!!!!!</td>
+                </tr>
+
+            </table>
         </div>
         <div>
-
+            <button class="avancar2" onclick="irTelaInicial()"><img src="img/img/left_arrow_white.webp" alt=""></button>
         </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

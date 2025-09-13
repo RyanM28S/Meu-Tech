@@ -112,6 +112,19 @@ input:focus {
 
 }
 
+.avancar2 {
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    font-size: 60px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+
+
+}
+
 .linha2 {
     margin: 0 auto;
     margin-top: 300px;
@@ -465,7 +478,7 @@ p {
 }
 
 .inicio {
-    background-color:transparent;
+    background-color: transparent;
     margin-right: 10px;
     color: #eef0ff;
     border-radius: 15px;
@@ -505,13 +518,15 @@ p {
     display: flex;
     padding-top: 40px;
 }
+
 .b1 {
     width: 50px;
     height: 50px;
 }
+
 #botoes_rapidos {
     color: white;
-    background-color:transparent;
+    background-color: transparent;
     margin-right: 10px;
     border-radius: 15px;
     padding: 10px 0 30px 0;
@@ -520,8 +535,9 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px auto 0 auto; /* Centraliza horizontalmente */
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    margin: 30px auto 0 auto;
+    /* Centraliza horizontalmente */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     border: solid 2px #f5f6fa;
 }
 
@@ -542,7 +558,7 @@ p {
     font-weight: bold;
     cursor: pointer;
     margin: 10px 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
     transition: background 0.2s, transform 0.2s;
 }
 
@@ -550,6 +566,7 @@ p {
     background: linear-gradient(90deg, #048585 60%, #05e3ef 100%);
     transform: translateY(-2px) scale(1.04);
 }
+
 #suporte {
     background-color: #00009b;
     padding-bottom: 25px;
@@ -560,28 +577,33 @@ p {
     font-weight: bold;
     font-size: x-large;
 }
+
 #perguntas {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     margin: 20px;
 }
+
 #titulotelainstimento {
     text-align: center;
 }
+
 #fundo_tela_investimento {
     background-image: url('img/img/background-tela\ monitoramento.png');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
-    min-height: 100vh; 
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+
 #fundo_tela_investimento h1 {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .central {
     text-align: center;
     margin-top: 20px;
@@ -590,8 +612,30 @@ p {
 
 /* monitoramento */
 
-.backgroundmon {
-    background-color: #007bff ;
+#backgroundmon {
+    background-image: url("img/img/background-tela\ monitoramento.png");
+}
+
+#monoId {
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    color: white;
+    border-collapse: collapse;
+    padding: 8px;
+}
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+th, td {
+    padding: 20px;
 }
 
 
@@ -601,27 +645,31 @@ p {
     flex-direction: initial;
 
 }
+
 .Monitoramento {
-margin-top: 20px ;
-margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
+
 .perfilmonitoramento {
-margin-left: 1600px;
-margin-top: 10px;
-box-shadow: none;
-border-radius: 40px ;
-padding: 6px;
+    margin-left: 1600px;
+    margin-top: 10px;
+    box-shadow: none;
+    border-radius: 40px;
+    padding: 6px;
 }
+
 .monitoramentoperfil {
-height: 60px;
-width: 60px;
+    height: 60px;
+    width: 60px;
 
 }
+
 #hm {
-    display:flex ;
+    display: flex;
     margin: 0 auto;
     margin-top: -100px;
-    
+
 }
 
 .investimentomonitoramento {
@@ -631,10 +679,11 @@ width: 60px;
 .monitomarentoinput {
     flex: 1;
     padding: 20px;
-    margin-right: 20px   ;
+    margin-right: 20px;
     border-radius: 10px;
     cursor: pointer;
 }
+
 #homi {
     display: flex;
     margin: 0 auto;
@@ -642,18 +691,21 @@ width: 60px;
     width: 300px;
     margin-bottom: -300px;
 }
+
 .coluna {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     padding: 20px;
 }
+
 .coluna2 {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;  
+    margin-left: 20px;
     padding: 20px;
 }
+
 .coluna3 {
     display: flex;
     flex-direction: column;
@@ -684,35 +736,40 @@ width: 60px;
     color: black;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
+
 .pesquisarmon button :hover {
     background-color: limegreen;
     color: white;
 }
+
 .linhamon {
     border: 1px solid green;
     margin: 20px 0;
 }
-.tabelainvestimentos{
+
+.tabelainvestimentos {
     font-size: 30px;
     margin-left: 20px;
 }
+
 .organizacao2mon {
     display: flex;
-    flex-direction: initial;    
+    flex-direction: initial;
 }
 
 .tabelaacoes {
-font-size: 30px;
-margin-left: 200px;
+    font-size: 30px;
+    margin-left: 200px;
 }
 
 .tabelastatus {
-font-size: 30px;
-margin-left: 200px;
+    font-size: 30px;
+    margin-left: 200px;
 }
 
 .tabeladata {
-font-size: 30px;
-margin-left: 200px;
+    font-size: 30px;
+    margin-left: 200px;
 }
+
 /*fim monitoramento*/
