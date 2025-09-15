@@ -187,7 +187,6 @@ input:focus {
     font-weight: bold;
     cursor: pointer;
     margin-top: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: background 0.2s, transform 0.2s;
 }
 
@@ -818,6 +817,10 @@ td {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 #corpoesqueci h1 {
@@ -854,5 +857,6 @@ td {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px ;
 }
 /*fim tela esqueci minha senha*/
