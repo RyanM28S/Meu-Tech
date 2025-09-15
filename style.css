@@ -848,7 +848,6 @@ td {
     border-radius: 8px;
     background: #f9f9f9;
     font-size: 16px;
-    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 #inputesqueci {
