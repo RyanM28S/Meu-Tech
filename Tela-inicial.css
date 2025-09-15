@@ -52,6 +52,12 @@ main {
     border-radius: 8px;
     margin-bottom: 2rem;
 }
+.transitar {
+    transition: all 1s ease;
+}
+.transitar:hover {
+    transform: scale(1.16);
+}
 .hero h1 {
     font-size: 2.8rem;
     margin-bottom: 1rem;
