@@ -121,8 +121,16 @@ input:focus {
     cursor: pointer;
     height: 100px;
     width: 100px;
-
-
+}
+.avancar3 {
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    font-size: 60px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
 }
 
 .linha2 {
@@ -228,7 +236,12 @@ input:focus {
     display: block;
     margin: 35px 80px;
 }
-
+.dados {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
 .Voltar {
     background-color: #0056b3;
     border-radius: 5px;
@@ -411,9 +424,15 @@ p {
     border-radius: 10px;
     padding: 8px;
     margin-right: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 270px;
 }
-
+#transitar {
+    transition: all 2s ease;
+}
+#transitar:hover {
+    height: 100px;
+    width: 100px;
+}
 #mostrar {
     background-color: white;
     color: black;
