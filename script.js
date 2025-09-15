@@ -121,7 +121,7 @@ function paginaCadastroMulher() {
     window.location.href = 'CadastroMulher.html'
 }
 function irEsqueciMinhaSenha() {
-    window.location.href='telaEsqueciMinhaSenha.html'
+    window.location.href='tela esqueci minha senha.html'
 }
 function irTelaSuporte () {
     window.location.href ='suporte.html'
